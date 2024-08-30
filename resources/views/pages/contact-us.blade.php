@@ -3,7 +3,7 @@
 
 
 <header>
-    <div class="page-header min-vh-75 h-28 position-relative" style="background-image: url(/images/banners/stock-photo-oil-ship-refueling-to-cargo-ship-at-dock-refueling-at-sea-oil-products-ship-fuelling-a-large-bulk-2246312887.jpg); background-position: top;" loading="lazy">
+    <div class="page-header min-vh-75 h-28 position-relative" style="background-image: url(/images/banners/vinnex_Services_ship_bunkering-3.jpg); background-position: top;" loading="lazy">
         <span class="position-absolute top-0 start-0 w-100 h-100  bg-black opacity-50"></span>
         <div class="container">
             <div class="row">
