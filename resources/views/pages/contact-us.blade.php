@@ -1,4 +1,4 @@
-@extends('layouts.listing')
+@extends('layouts.app')
 @section('content')
 
 
@@ -51,5 +51,60 @@
 @stop
 @section('inline-scripts')
 
+      
 
+document.addEventListener("DOMContentLoaded", function () {
+    const banner = document.getElementById('banner');
+    console.log(banner)
+    let zoomIn = true;
+
+    setInterval(() => {
+        if (zoomIn) {
+            banner.classList.remove('zoom-out');
+            banner.classList.add('zoom-in');
+        } else {
+            banner.classList.remove('zoom-in');
+            banner.classList.add('zoom-out');
+        }
+        zoomIn = !zoomIn;
+    }, 5000); // Change every 10 seconds
+});
+
+jQuery(function() {
+
+  
+
+// Add touch event listeners to centered images
+$(".intro-image").on("touchstart", function(event) {
+// Record the initial touch position
+var startX = event.touches[0].clientX;
+// Add touch move event listener
+$(this).on("touchmove", function(event) {
+// Calculate the distance moved
+var moveX = event.touches[0].clientX - startX;
+// If the distance moved is greater than a threshold, trigger carousel swipe
+if (Math.abs(moveX) > 50) { // Adjust threshold as needed
+if (moveX > 0) {
+// Swipe right
+$(".owl-carousel").trigger("prev.owl.carousel");
+} else {
+// Swipe left
+$(".owl-carousel").trigger("next.owl.carousel");
+}
+// Remove touchmove event listener to prevent multiple triggers
+$(this).off("touchmove");
+}
+});
+// Add touchend event listener to clean up
+$(this).on("touchend", function() {
+// Remove touchmove event listener
+$(this).off("touchmove");
+});
+});
+console.log(true);
+});
+
+      jQuery(function() {
+
+      });
 @stop
