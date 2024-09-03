@@ -28,7 +28,7 @@
 </div>
 
 
-<div class="container-fluid mb-2">
+<div class="container-fluid mb-2 bg-grey">
    <div class="row">
       <div id="tree" class="opacity-0 back-1">
          <div class="col-md-12">
@@ -93,9 +93,9 @@
 
    <div class="row g-0">
       @foreach($brands as $key => $brand)
-      <div itemscope itemtype="https://schema.org/Brand" data-animation-name="fadeInUpShorter" class="col-6 mb-1  col-md-3   p-0 p-1  appear-animate ">
+      <div itemscope itemtype="https://schema.org/Brand" data-animation-name="fadeInUpShorter" class="col-6 mb-1  col-md-3   p-0 p-1  appear-animate  ">
          <a class="d-block p-0 border">
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center bg-white">
                <div class="d-flex justify-content-center align-items-center text-center image-category">
                   <img srcset=" {{$key}} 480w, {{$key}} 768w,  {{$key}} 1200w" sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px" itemprop="image" class="image-class img-fluid" title="VInnex services Clients  {{$brand}}" src="{{ $key }}" alt="{{ $brand }} ">
                </div>

@@ -92,7 +92,7 @@
 </script>
 
 <body>
-   <div id="app" class="app">
+   <div id="app" class="app bg-grey">
       <nav class="navbar   mt-5 px-5 navbar-fixed-top navbar-expand-lg  navbar-transparent navbar-absolute" color-on-scroll="100" id="sectionsNav">
          @include('_partials.header', ['show_logo' => true, 'show_book' => true])
       </nav>
