@@ -104,12 +104,6 @@
    </div>
 
 
-
-
-
-
-
-
    <script src="/js/services_js.js?version={{ str_random(6) }}"></script>
 
 
