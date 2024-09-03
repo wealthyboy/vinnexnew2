@@ -66,40 +66,7 @@ class HomeController
     public  function images()
     {
 
-        return [
-
-            'sliders' => [
-                'https://drive.google.com/file/d/17jMj4PYxnUgEa37VTw513F61Tk3WTi8a/view?usp=drive_link',
-                'https://drive.google.com/file/d/1xe9lnx6RfmSpQSp_r9tSOWwV1RNmMBxY/view?usp=drive_link',
-                'https://drive.google.com/file/d/196b5oHxzd5YSpldGMgzbviAeaZhJ5PB1/view?usp=drive_link',
-                'https://drive.google.com/file/d/1cKLITs8-hXEqNqwWE_8BUpO1gXKJryRL/view?usp=drive_link',
-                'https://drive.google.com/file/d/1R3qBwhzOU479zhtMiPxtx8sPUp4iqoMe/view?usp=drive_link',
-                'https://drive.google.com/file/d/16XtNpeqCSoiPVZ4KhTRb0rq72tYosN3h/view?usp=drive_link',
-                'https://drive.google.com/file/d/1Ob-RctxqUb6nmoBNl53V-vY6uSDGfY-W/view?usp=drive_link',
-                'https://drive.google.com/file/d/1j0b9Hih3ozJgipUpJuAGjlENkuqndo2N/view?usp=drive_link',
-                'https://drive.google.com/file/d/1C3EWAhlUIjKurP91K6fCLz5MnEFpet5c/view?usp=drive_link',
-            ],
-
-            'welcome' => [
-                'https://drive.google.com/file/d/1ES6PROkjg09AnQdO2hn033mzg48dJT8S/view?usp=drive_link',
-            ],
-            'amenities' => [
-                'https://drive.google.com/file/d/196b5oHxzd5YSpldGMgzbviAeaZhJ5PB1/view?usp=drive_link',
-            ],
-            'gallery' => [
-                'https://drive.google.com/file/d/1Y1eaGKkZDXWkHORUQ9ID7OXAQOTTe4C_/view?usp=drive_link',
-                'https://drive.google.com/file/d/1HuJi5if8Dhc7sahLf7KR5s6SFOJNpmh3/view?usp=drive_link',
-                'https://drive.google.com/file/d/1prjVdTN-2iQ0VqXk974aeV9pChj56zRr/view?usp=drive_link',
-                'https://drive.google.com/file/d/1v-7R-SfQsAzLb0zPzvfn147ViMVp-liJ/view?usp=drive_link',
-                'https://drive.google.com/file/d/1VVLjDieMwBTHJBfcDb6lv7EOh1dHCnGW/view?usp=drive_link',
-                'https://drive.google.com/file/d/1ZIlkG4pBMD8FycEtq0XLZ1jIllXA71qA/view?usp=drive_link',
-                'https://drive.google.com/file/d/1EUI6dfkxfcyvdbKL_y0aZfT61sGXk6r7/view?usp=drive_link',
-                'https://drive.google.com/file/d/1xe9lnx6RfmSpQSp_r9tSOWwV1RNmMBxY/view?usp=drive_link',
-                'https://drive.google.com/file/d/19r4ddA9EBAlq7g37zN64N3Voz1tuglIm/view?usp=drive_link',
-                'https://drive.google.com/file/d/1iVvVYIaeYqu8heqyUgSB1wkEWHettHEv/view?usp=drive_link',
-            ]
-
-        ];
+      
     }
 
 
@@ -109,7 +76,6 @@ class HomeController
 
     public function home(Request $request)
     {
-
         $site_status = Live::first();
         $posts = Information::orderBy('created_at', 'DESC')->where('blog', true)->take(3)->get();
         $banners = Banner::where('type', 'banner')->orderBy('sort_order', 'asc')->get();
@@ -118,6 +84,8 @@ class HomeController
         $nights = '1 night';
         $images = $this->images();
         $generator = new self;
+        $page_title = "Ship bunkering services in nigeria";
+        $page_meta_description = "We provide bunkers and other marine-related services to all types of ships, including dry/wet cargo import and export ships, as well as any other seafaring vessel, in a safe, efficient, and responsible manner in line with the regulations promoting sustainable development in the industry.";
 
         $brands = [
             "/images/client-vinnex/cropped-dms_logo-300x96.png" => 'daddo maritime',
@@ -140,7 +108,10 @@ class HomeController
                     'sliders' => $sliders,
                     'banners'  => $banners,
                     'posts'  => $posts,
-                    'brands' => $brands
+                    'brands' => $brands,
+                    'page_title' => $page_title,
+                    'page_meta_description' => $page_meta_description,
+
                 ]
             );
         } else {
@@ -149,7 +120,9 @@ class HomeController
                     'sliders',
                     'banners',
                     'posts',
-                    'brands'
+                    'brands',
+                    'page_title',
+                    'page_meta_description',
 
                 ));
             }

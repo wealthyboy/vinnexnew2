@@ -3,7 +3,7 @@
    <title>{{ isset( $page_title) ?  $page_title .' |  '.config('app.name') :  optional($system_settings)->meta_title  }}</title>
    <meta name="csrf-token" content="{{ csrf_token() }}">
    <meta name="description" content="{{ isset($page_meta_description) ? $page_meta_description : optional($system_settings)->meta_description }}">
-   <meta name="keywords" content="{{ isset(optional($system_settings)->meta_tag_keywords) ? optional($system_settings)->meta_tag_keywords : 'cleanse,detox,flattummy,flattummy tea ng,slimming tea' }}" />
+   <meta name="keywords" content="{{ isset(optional($system_settings)->meta_tag_keywords) ? optional($system_settings)->meta_tag_keywords : 'Marine Services: Diesel Bunker Suppliers, Supply chain management (SCM), Transportation and Distribution (Haulage), Deck Store Suppliers, Fresh Water Supply, Lubricant (Lube) Oil Supply, Ship Store Suppliers, Ship-to-ship operation (STS), Marine Security Services.' }}" />
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <link rel="canonical" href="{{ Config('app.url') }}">
 
@@ -25,7 +25,7 @@
    <meta property="og:url" content="https://vinnexservices.com/">
    <meta property="og:title" content="vinnexservices">
    <meta property="og:type" content="website">
-   <meta property="og:description" content="{{ isset($page_meta_description) ? $page_meta_description : optional($system_settings)->meta_description }}">
+   <meta property="og:description" content="{{ isset($page_meta_description) ? $page_meta_description : optional($system_settings )->meta_description }}">
    <meta property="og:image:alt" content="">
    <meta name="twitter:site" content="@vinnexservices">
    <meta name="twitter:card" content="summary_large_image">
