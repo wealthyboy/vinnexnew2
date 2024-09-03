@@ -34,22 +34,22 @@ class PageController extends Controller
         $links = [
             'contact-us' => [
                 'page_title' => 'Contact - Vinnex Services',
-                'meta_description' => 'test',
+                'meta_description' => 'We provide bunkers and other marine-related services to all types of ships, including dry/wet cargo import and export ships, as well as any other seafaring vessel, in a safe, efficient, and responsible manner in line with the regulations promoting sustainable development in the industry.',
                 'key_words' => ''
             ],
             'our-services' => [
                 'page_title' => 'Our Services - Vinnex Services',
-                'meta_description' => 'test',
+                'meta_description' => 'We provide bunkers and other marine-related services to all types of ships, including dry/wet cargo import and export ships, as well as any other seafaring vessel, in a safe, efficient, and responsible manner in line with the regulations promoting sustainable development in the industry.',
                 'key_words' => 'test'
             ],
             'about-us' => [
                 'page_title' => 'About us - Vinnex Services',
-                'meta_description' => 'test',
+                'meta_description' => 'We provide bunkers and other marine-related services to all types of ships, including dry/wet cargo import and export ships, as well as any other seafaring vessel, in a safe, efficient, and responsible manner in line with the regulations promoting sustainable development in the industry.',
                 'key_words' => 'test'
             ],
             'board-of-directors' => [
                 'page_title' => 'board-of-directors - Vinnex Services',
-                'meta_description' => 'test',
+                'meta_description' => 'We provide bunkers and other marine-related services to all types of ships, including dry/wet cargo import and export ships, as well as any other seafaring vessel, in a safe, efficient, and responsible manner in line with the regulations promoting sustainable development in the industry.',
                 'key_words' => 'test'
             ],
 
