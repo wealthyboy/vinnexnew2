@@ -26,7 +26,9 @@
         <!-- Head of the Company -->
         <div class="row justify-content-center mt-5 mb-5">
             <div class="col-md-8 board-member">
-                <!-- <img src="head_of_company.jpg" alt="Head of the Company"> -->
+                <div class="d-flex justify-content-center">
+                   <img title="SENIOR ROYAL HIGH CHIEF IYADUA VINCENT IGIETEMHO (SRHC)" src="/images/banners/md_vinnexservices.jpeg" alt="Head of the Company">
+                </div>
                 <h3 class="mt-3">SENIOR ROYAL HIGH CHIEF IYADUA VINCENT IGIETEMHO (SRHC)</h3>
                 <p><strong>Position:</strong>CEO </p>
                 <p>Is the Chairman and Chief Executive Officer (CEO) of VISL, an experienced and erudite businessman. He holds a second-class upper bachelor's degree

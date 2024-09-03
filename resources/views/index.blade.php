@@ -19,8 +19,8 @@
 
 <div  id="banner" class="banner d-flex align-items-center justify-content-center text-center">
   <div class="container">
-    <h1 class="fw-bold text-white" title="Introduction to Vinnex Services">We are Vinnex Services</h1>
-    <h1 class="fw-bold text-white" title="Vinnex Services: Your Trusted Partner">Your Trusted Partner in Every Port</h1>
+    <h1 class="fw-bold text-white bold-4" title="Introduction to Vinnex Services">We are Vinnex Services</h1>
+    <h1 class="fw-bold text-white bold-4" title="Vinnex Services: Your Trusted Partner">Your  Partner in Every Port</h1>
     <p class="fw-bold text-white display-4 d-none d-md-block">
       At VinnexServices, we excel in trading and supplying marine fuels, leveraging our extensive network of personal relationships across the oil and shipping industries. With us, you gain a reliable partner committed to meeting your needs at every port.
     </p>

@@ -190,6 +190,13 @@ h2.title {
   color: $black-color;
 }
 
+.bold-4 {
+  font-weight: $font-weight-extra-bold;
+  font-family: "Heading1", "Times New Roman", serif !important;
+  color: $black-color;
+  font-size: calc(30px + 4vw);
+}
+
 .description,
 .card-description,
 .footer-big p {

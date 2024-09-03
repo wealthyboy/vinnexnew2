@@ -15626,6 +15626,13 @@ h2.title {
   color: #000000;
 }
 
+.bold-4 {
+  font-weight: 700;
+  font-family: "Heading1", "Times New Roman", serif !important;
+  color: #000000;
+  font-size: calc(30px + 4vw);
+}
+
 .description,
 .card-description,
 .footer-big p {
@@ -19491,7 +19498,7 @@ a.modal-close {
 }
 
 .bg-panel-white {
-  background-color: #89CFF0 !important;
+  background-color: #fff !important;
 }
 
 .btn-primary {
