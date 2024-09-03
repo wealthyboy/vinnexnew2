@@ -2,7 +2,7 @@
 @section('content')
 
 <header>
-    <div class="page-header min-vh-75 h-28 position-relative" style="background-image: url(/images/banners/vinnex_Services_ship_bunkering-3.jpg); " loading="lazy">
+    <div title="Vinnex Investment Services Limited (VISL) is an indigenous marine, energy &amp; petroleum (E&amp;P) services company incorporated and registered in June 2007 to carry out such businesses but not limited to the under listed. VISL is focused on products and services that have been structured to meet every one of your company’s/shipping needs such as the following:" class="page-header min-vh-75 h-28 position-relative" style="background-image: url(/images/banners/vinnex_Services_ship_bunkering-3.jpg); " loading="lazy">
         <span class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-50"></span>
         <div class="container">
             <div class="row">

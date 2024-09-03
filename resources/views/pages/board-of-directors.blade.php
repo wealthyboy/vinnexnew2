@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto text-white text-center">
                     <h1 class="title text-white" itemprop="headline" title="About Us">Board of Directors</h1>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
