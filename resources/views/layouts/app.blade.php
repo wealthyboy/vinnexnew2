@@ -92,11 +92,11 @@
 </script>
 
 <body>
-   <div id="app" class="app bg-grey">
+   <div id="app" class="app ">
       <nav class="navbar   mt-5 px-5 navbar-fixed-top navbar-expand-lg  navbar-transparent navbar-absolute" color-on-scroll="100" id="sectionsNav">
          @include('_partials.header', ['show_logo' => true, 'show_book' => true])
       </nav>
-      <div id="content" class="main  index-page">
+      <div id="content" class="main  index-page bg-grey">
          @yield('content')
       </div>
       @include('_partials.footer')
