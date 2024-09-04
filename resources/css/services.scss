@@ -418,8 +418,6 @@ button#dropdownIcon {
 }
 
 
-
-
 .back-2 {
   background-image: url(/images/banners/vinnex_Services_ship_bunkering-2.jpg);
   background-repeat: no-repeat;
@@ -447,6 +445,40 @@ button#dropdownIcon {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banners/vinnex_Services_ship_bunkering-1.jpg') center/cover no-repeat;
   transition: background-size 10s ease-in-out;
   background-size: 100%; /* Initial size */
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+  z-index: 2;
+}
+
+.text-container {
+  position: relative;
+  z-index: 3;
+  color: white;
 }
 
 #banner.zoom-in {

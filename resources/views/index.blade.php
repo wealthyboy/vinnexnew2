@@ -17,7 +17,28 @@
    }
 </script>
 
-<div  id="banner" class="banner d-flex align-items-center justify-content-center text-center">
+
+<div class="video-background">
+  <!-- Video Background -->
+  <video autoplay muted loop>
+    <source src="/images/banners/Ocean-21528.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Dark Overlay -->
+  <div class="video-overlay"></div>
+
+  <!-- Centered Text Content -->
+  <div class="container text-center text-container d-flex flex-column justify-content-center align-items-center h-100">
+    <h1 class="fw-bold text-white bold-4" title="Introduction to Vinnex Services">Vinnex Services</h1>
+    <h1 class="fw-bold text-white bold-4" title="Vinnex Services: Your Trusted Partner">Your Partner in Every Port</h1>
+    <p class="fw-bold text-white display-4 d-none d-md-block">
+      At Vinnex Services, we excel in trading and supplying marine fuels, leveraging our extensive network of personal relationships across the oil and shipping industries. With us, you gain a reliable partner committed to meeting your needs at every port.
+    </p>
+  </div>
+</div>
+
+<!-- <div  id="banner" class="banner d-flex align-items-center justify-content-center text-center">
   <div class="container">
     <h1 class="fw-bold text-white bold-4" title="Introduction to Vinnex Services">We are Vinnex Services</h1>
     <h1 class="fw-bold text-white bold-4" title="Vinnex Services: Your Trusted Partner">Your  Partner in Every Port</h1>
@@ -25,7 +46,7 @@
       At VinnexServices, we excel in trading and supplying marine fuels, leveraging our extensive network of personal relationships across the oil and shipping industries. With us, you gain a reliable partner committed to meeting your needs at every port.
     </p>
   </div>
-</div>
+</div> -->
 
 
 <div class="container-fluid mb-2 bg-grey">
