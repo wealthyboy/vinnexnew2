@@ -5,16 +5,16 @@
             <div class="col-md-12 text-center">
                 <ul class="pull-center">
                     @foreach($footer_info as $info)
-                    <li>
-                        <a href="/pages/{{ $info->slug }}">
-                            {{ title_case($info->title) }}
-                        </a>
-                    </li>
+                        <li>
+                            <a href="/pages/{{ $info->slug }}">
+                                {{ title_case($info->title) }}
+                            </a>
+                        </li>
                     @endforeach
                 </ul>
             </div>
             <div class="col-md-12 copyright text-center">
-                <p class="">© Copyright Avenue Montaigne {{ date('Y') }}. All rights reserved.
+                <p class="">© Copyright Vinnex Services {{ date('Y') }}. All rights reserved.
                     @if ( auth()->check() && auth()->user()->isAdmin() )
                     <a target="_blank" class="text-white" href="/admin">Go to Admin</a>
                     @endif
