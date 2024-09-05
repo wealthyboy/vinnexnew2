@@ -80,7 +80,8 @@
 
 <div class="container-fluid mb-2">
    <div class="row">
-      <div id="tree" class="opacity-  back-2">
+      <div id="tree" title="Discover seamless maritime excellence with Vinnex, offering tailored marine services, reliable diesel bunker supply, expert supply chain management, comprehensive marine security services, quality ship store suppliers, safe ship-to-ship operations, and top-notch deck store supplies for your maritime needs...
+" class="opacity-  back-2">
          <div class="col-md-12">
             <section id="leftBox">
                <div class="row position-relative">
