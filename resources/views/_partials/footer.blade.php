@@ -7,7 +7,7 @@
                     @foreach($footer_info as $info)
                         <li>
                             <a href="/pages/{{ $info->slug }}">
-                                {{ title_case($info->title) }}
+                                {{-- title_case($info->title) --}}
                             </a>
                         </li>
                     @endforeach
