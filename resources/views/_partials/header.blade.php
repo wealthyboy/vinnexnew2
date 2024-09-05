@@ -9,7 +9,7 @@
 
         <div class="d-flex justify-content-center align-items-center">
             @if(isset($show_book) && $show_book)
-            <a href="/apartments" class="align-self-center mr-3 d-none d-lg-block font-weight-bold btn-primary bold-3 btn text-white">
+            <a href="tel:+2348178765125" class="align-self-center mr-3 d-none d-lg-block font-weight-bold btn-primary bold-3 btn text-white">
                 <i class="fa fa-phone"></i>
             </a>
             @endif
