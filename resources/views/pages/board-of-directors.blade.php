@@ -27,7 +27,7 @@
         <div class="row justify-content-center mt-5 mb-5">
             <div class="col-md-8 board-member">
                 <div class="d-flex justify-content-center">
-                   <img title="SENIOR ROYAL HIGH CHIEF IYADUA VINCENT IGIETEMHO (SRHC)" src="/images/banners/md_vinnexservices.jpeg" alt="Head of the Company">
+                   <img title="SENIOR ROYAL HIGH CHIEF IYADUA VINCENT IGIETEMHO (SRHC)" src="/images/banners/mr_vincent_i.jpeg" alt="Head of the Company">
                 </div>
                 <h3 class="mt-3">SENIOR ROYAL HIGH CHIEF IYADUA VINCENT IGIETEMHO (SRHC)</h3>
                 <p><strong>Position:</strong>CEO </p>
@@ -51,7 +51,9 @@
                 </p>
             </div>
             <div class="col-md-4 board-member">
-                <!-- <img src="member2.jpg" alt="Board Member"> -->
+                <div class="d-flex justify-content-center">
+                <img src="/images/banners/john_vinnex_Sevices.jpeg" class="img-fluid" alt="Board Member">
+                </div>
                 <h4>MR OMOUGHIE JOHN</h4>
                 <p><strong>Position:</strong> Manager</p>
                 <p>
@@ -71,7 +73,9 @@
         </div>
         <div class="row mt-3 mb-5">
             <div class="col-md-4 board-member">
-                <!-- <img src="member4.jpg" alt="Board Member"> -->
+                <div class="d-flex justify-content-center">
+                <img src="/images/banners/Christian_vinnexservices.jpeg" class="img-fluid" alt="Board Member">
+                </div>
                 <h4>MR IGIETEMHO CHRISTIAN</h4>
                 <p><strong>Position:</strong> CMO</p>
                 <p>
