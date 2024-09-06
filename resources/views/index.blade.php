@@ -29,7 +29,7 @@
   <div class="video-overlay"></div>
 
   <!-- Centered Text Content -->
-  <div class="container text-center text-container d-flex flex-column justify-content-center align-items-center h-100">
+  <div title="Bunkering Services is a system used to supply fuel to ships, which can even be carried out on the open sea. Although, until now, most ships around the world operate with diesel engines and, therefore, with diesel fuel, the use of liquefied natural gas or LNG is now being encouraged." class="container text-center text-container d-flex flex-column justify-content-center align-items-center h-100">
     <h1 class="fw-bold text-white bold-4" title="Introduction to Vinnex Services">Vinnex Services</h1>
     <h1 class="fw-bold text-white bold-4" title="Vinnex Services: Your Trusted Partner">Your Partner in Every Port</h1>
     <p class="fw-bold text-white display-4 d-none d-md-block">
