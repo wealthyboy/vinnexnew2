@@ -3,7 +3,7 @@
    <title>{{ isset( $page_title) ?  $page_title .' |  '.config('app.name') :  optional($system_settings)->meta_title  }}</title>
    <meta name="csrf-token" content="{{ csrf_token() }}">
    <meta name="description" content="{{ isset($page_meta_description) ? $page_meta_description : optional($system_settings)->meta_description }}">
-   <meta name="keywords" content="{{ isset(optional($system_settings)->meta_tag_keywords) ? optional($system_settings)->meta_tag_keywords : 'Marine Services: Diesel Bunker Suppliers, Supply chain management (SCM), Transportation and Distribution (Haulage), Deck Store Suppliers, Fresh Water Supply, Lubricant (Lube) Oil Supply, Ship Store Suppliers, Ship-to-ship operation (STS), Marine Security Services, ship bunkering services in nigeria' }}" />
+   <meta name="keywords" content="ship bunkering services in nigeria, Marine Services: Diesel Bunker Suppliers, Supply chain management (SCM), Transportation and Distribution (Haulage), Deck Store Suppliers, Fresh Water Supply, Lubricant (Lube) Oil Supply, Ship Store Suppliers, Ship-to-ship operation (STS), Marine Security Services, ship bunkering services in nigeria' }}" />
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <link rel="canonical" href="{{ Config('app.url') }}">
 
