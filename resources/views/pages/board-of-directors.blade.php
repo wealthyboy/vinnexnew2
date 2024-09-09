@@ -78,8 +78,10 @@
                 </div>
                 <h4>MR IGIETEMHO CHRISTIAN</h4>
                 <p><strong>Position:</strong> CMO</p>
+               
+
                 <p>
-                    Is from Edo state and a graduate of political science from the university of Nigeria Nsukka (UNN). He is A bunker trader, the area of interest is to enable the company connect with companies who are in need of bunkers, to enable services been provided to vessels at prompt and to promote profitability.
+                Mr. Igietemho Christian, a political science graduate from the University of Nigeria, Nsukka (UNN), hails from Edo State. He currently holds the position of Bunker Manager at VINNEXINVESTMENT SERVICES LIMITED. His primary objective is to facilitate connections between the company and potential clients in need of bunkers, ensuring prompt service delivery to vessels and enhancing overall profitability.
                 </p>
             </div>
             <div class="col-md-4 board-member">
