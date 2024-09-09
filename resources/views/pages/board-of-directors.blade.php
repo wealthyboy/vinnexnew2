@@ -27,7 +27,7 @@
         <div class="row justify-content-center mt-5 mb-5">
             <div class="col-md-8 board-member">
                 <div class="d-flex justify-content-center">
-                   <img title="SENIOR ROYAL HIGH CHIEF IYADUA VINCENT IGIETEMHO (SRHC)" src="/images/banners/ceo_vinnex_Services.jpeg" alt="Head of the Company">
+                   <img title="SENIOR ROYAL HIGH CHIEF IYADUA VINCENT IGIETEMHO (SRHC)" class="img-fluid" src="/images/banners/ceo_vinnex_Services.jpeg" alt="Head of the Company">
                 </div>
                 <h3 class="mt-3">SENIOR ROYAL HIGH CHIEF IYADUA VINCENT IGIETEMHO (SRHC)</h3>
                 <p><strong>Position:</strong>CEO </p>
