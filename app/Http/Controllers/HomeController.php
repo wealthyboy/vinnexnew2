@@ -84,7 +84,7 @@ class HomeController
         $nights = '1 night';
         $images = $this->images();
         $generator = new self;
-        $page_title = "Ship bunkering services in nigeria";
+        $page_title = "Ship bunker services in nigeria";
         $page_meta_description = "We provide bunkers and other marine-related services to all types of ships, including dry/wet cargo import and export ships, as well as any other seafaring vessel, in a safe, efficient, and responsible manner in line with the regulations promoting sustainable development in the industry.";
 
         $brands = [
