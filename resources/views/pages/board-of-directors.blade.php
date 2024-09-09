@@ -62,16 +62,7 @@
                     Happily married with three Children.
                 </p>
             </div>
-            <div class="col-md-4 board-member">
-                <!-- <img src="member3.jpg" alt="Board Member"> -->
-                <h4>OLABANJI AYODELE</h4>
-                <p><strong>Position:</strong> Finance</p>
-                <p>
-                    With Equitorial Energy Company Limited located at the commercial Centre of Apapa, where he oversees the various activities of the company and other obligations such as marketing of the Company services, Payment for Products, Customer Relationship Management and General Shipping Operations. He has over nine years cognate working experience in finance and marketing with five in shipping and petroleum product company. Olabanji is the Financial Director of the firm and will bring his wealth of experience to bear on the project. His responsibility is to co-ordinate the financial and administrative activity of the firm.
-                </p>
-            </div>
-        </div>
-        <div class="row mt-3 mb-5">
+
             <div class="col-md-4 board-member">
                 <div class="d-flex justify-content-center">
                 <img src="/images/banners/Christian_vinnexservices.jpeg" class="img-fluid" alt="Board Member">
@@ -84,6 +75,10 @@
                 Mr. Igietemho Christian, a political science graduate from the University of Nigeria, Nsukka (UNN), hails from Edo State. He currently holds the position of Bunker Manager at VINNEXINVESTMENT SERVICES LIMITED. His primary objective is to facilitate connections between the company and potential clients in need of bunkers, ensuring prompt service delivery to vessels and enhancing overall profitability.
                 </p>
             </div>
+           
+        </div>
+        <div class="row mt-3 mb-5">
+           
             <div class="col-md-4 board-member">
                 <!-- <img src="member5.jpg" alt="Board Member"> -->
                 <h4>CAPT. ALEGBELEYE OLUWASEUN PETER</h4>
@@ -93,14 +88,7 @@
                     all times.
                 </p>
             </div>
-            <div class="col-md-4 board-member mb-5">
-                <!-- <img src="member6.jpg" alt="Board Member"> -->
-                <h4>MR. OSHOKE CHRISTOPHER I</h4>
-                <p><strong>Position:</strong> Purchasing officer</p>
-                <p>
-                    Is a product of Auchi Polytechnic and a vibrant purchasing officer. He has more than ten years of experience in the purchasing industry and he’s good in cost reduction and honest in dealings.
-                </p>
-            </div>
+          
         </div>
     </div>
 </div>
