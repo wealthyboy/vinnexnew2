@@ -33,7 +33,7 @@
     <h1 class="fw-bold text-white bold-4" title="Introduction to Vinnex Services">Vinnex Investment Services</h1>
     <h1 class="fw-bold text-white bold-4" title="Vinnex Services: Your Trusted Partner">Your Partner in Every Port</h1>
     <p class="fw-bold text-white display-4 d-none d-md-block">
-      At Vinnex Services, we excel in trading and supplying marine fuels, leveraging our extensive network of personal relationships across the oil and shipping industries. With us, you gain a reliable partner committed to meeting your needs at every port.
+      At Vinnex Investment Services, we excel in trading and supplying marine fuels, leveraging our extensive network of personal relationships across the oil and shipping industries. With us, you gain a reliable partner committed to meeting your needs at every port.
     </p>
   </div>
 </div>
