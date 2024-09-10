@@ -89,6 +89,8 @@ Route::group(['middleware' => 'admin', 'prefix' => 'admin'], function () {
 
 
 Route::get('/', 'HomeController@home');
+Route::get('/ship-bunker-services-in-nigeria', 'HomeController@home');
+
 Route::get('home', 'HomeController@index');
 Route::get('account', 'Account\AccountController@index');
 
