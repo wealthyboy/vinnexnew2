@@ -38,6 +38,17 @@
   </div>
 </div>
 
+<div class="container">
+   <div class="row">
+      <div class="col-md-12">
+      </h1>Ship Bunkering Services in Nigeria</h1>
+
+Ship bunkering involves the process of supplying fuel, known as bunker, to ships for their operations. This includes the logistics of loading the fuel onto the vessel and distributing it among the ship's various tanks. Ships typically require different grades of oil to support their daily functions. The act of delivering oil to a ship is what is known as bunkering.
+
+In Nigeria, ship bunkering services encompass a range of components. These services are typically carried out at port locations and utilize either truck lorries or bunker barges equipped with modern techniques to handle heavy traffic efficiently.      </div>
+   </div>
+</div>
+
 <!-- <div  id="banner" class="banner d-flex align-items-center justify-content-center text-center">
   <div class="container">
     <h1 class="fw-bold text-white bold-4" title="Introduction to Vinnex Services">We are Vinnex Services</h1>
