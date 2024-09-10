@@ -38,9 +38,9 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container bg-grey rounded">
    <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 p-5">
       </h1>Ship Bunkering Services in Nigeria</h1>
 
 Ship bunkering involves the process of supplying fuel, known as bunker, to ships for their operations. This includes the logistics of loading the fuel onto the vessel and distributing it among the ship's various tanks. Ships typically require different grades of oil to support their daily functions. The act of delivering oil to a ship is what is known as bunkering.
