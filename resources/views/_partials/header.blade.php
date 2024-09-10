@@ -26,7 +26,7 @@
     <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-center w-100 mt-5" itemscope itemtype="https://schema.org/SiteNavigationElement">
             <li class="w-100 py-3 font-weight-bold" itemprop="name">
-                <a href="/" title="Home" itemprop="url">Home</a>
+                <a href="/ship-bunker-services-in-nigeria" title="Home" itemprop="url">Home</a>
             </li>
             <li class="w-100 font-weight-bold" itemprop="name">
                 <a href="/our-services" title="Services" itemprop="url">Services</a>
